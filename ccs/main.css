@@ -68,7 +68,7 @@ nav .nav-right-section img {
 }
 
 main {
-    margin-top: 150px;
+    margin-top: 0px;
     text-align: center;
 }
 
@@ -81,6 +81,7 @@ main .main-logo {
 main .main-logo img {
     width: 525px;
     margin: 0 auto;
+    border-block-end: blanchedalmond 10px;
 }
 
 main .main-input {
@@ -97,10 +98,11 @@ main .main-input-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
 }
 
 main .main-input input {
-    width: 450px;
+    width: 515px;
     height: 40px;
     border: none;
     outline: none;
@@ -169,7 +171,7 @@ footer {
     font-size: 13px;
     background-color: #f2f2f2;
     border-top: 1px solid #e4e4e4;
-    margin-top: 150px;
+    margin-top: 300px;
 }
 
 footer ul {
